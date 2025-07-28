@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优质服务推广</title>
+    <style>
+        /* 基础样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* 头部样式 */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 0;
+        }
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: #3498db;
+        }
+
+        /* 主内容区 */
+        .hero {
+            padding: 5rem 0;
+            text-align: center;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #c0392b;
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        /* 特点区域 */
+        .features {
+            padding: 4rem 0;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .section-title h2 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+        }
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .feature-card h3 {
+            color: #3498db;
+            margin-bottom: 1rem;
+        }
+
+        /* 页脚 */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">优质服务</div>
+            <div class="nav-links">
+                <a href="#">首页</a>
+                <a href="#">服务介绍</a>
+                <a href="#">关于我们</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主内容区 -->
+    <section class="hero">
+        <div class="container">
+            <h1>发现更高效的解决方案</h1>
+            <p>我们提供专业的服务，帮助你实现目标，提升效率，节省时间成本。</p>
+            <!-- 跳转按钮（跳转到目标链接） -->
+            <a href="/token/2sec:https://wolf.com/" class="cta-button">立即了解</a>
+        </div>
+    </section>
+
+    <!-- 特点区域 -->
+    <section class="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>我们的优势</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>高效可靠</h3>
+                    <p>多年行业经验，确保服务稳定高效，满足你的需求。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>专业团队</h3>
+                    <p>由专业人员组成的团队，提供专业的技术支持和服务。</p>
+                </div>
+                <div class="feature-card">
+                    <h3>性价比高</h3>
+                    <p>合理的价格，优质的服务，为你创造更大价值。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 优质服务推广平台 - 保留所有权利</p>
+        </div>
+    </footer>
+</body>
+</html>
